@@ -47,7 +47,7 @@ const Header = () => {
 
   return (
     <>
-      <header className={`fixed top-3 left-1/2 transform -translate-x-1/2 z-50 frosted-glass rounded-full px-6 w-[95%] max-w-7xl transition-all duration-300 ${
+      <header className={`fixed top-3 left-1/2 transform -translate-x-1/2 z-50 rounded-full px-6 w-[95%] max-w-7xl transition-all duration-300 backdrop-blur-xl bg-white/50 border border-white/30 shadow-lg ${
         isMenuOpen ? 'py-3' : 'py-3'
       }`}>
         <div className="flex items-center justify-between">
@@ -96,7 +96,7 @@ const Header = () => {
 
       {/* Mobile Navigation - Absolute positioned dropdown */}
       {isMenuOpen && (
-        <div className="fixed top-24 left-1/2 transform -translate-x-1/2 w-[80%] max-w-sm frosted-glass rounded-b-3xl flex flex-col p-5 shadow-xl z-40 border-t border-white/18">
+        <div className="fixed top-24 left-1/2 transform -translate-x-1/2 w-[80%] max-w-sm rounded-b-3xl flex flex-col p-5 shadow-xl z-40 backdrop-blur-xl bg-white/70 border border-white/30">
           <nav className="space-y-1">
             {navItems.map((item) => (
               <Link
