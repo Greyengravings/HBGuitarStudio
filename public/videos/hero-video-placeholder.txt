@@ -1,0 +1,9 @@
+# Placeholder for Hero Video
+# This would be the main hero background video for the VideoHero component
+# File: public/videos/hero-video.mp4
+
+# Note: In a real implementation, you would add:
+# - A high-quality music-related video (guitar playing, studio session, etc.)
+# - Optimized for web (H.264 codec, reasonable file size)
+# - Duration: 30-60 seconds loop
+# - Resolution: 1920x1080 or 1280x720
